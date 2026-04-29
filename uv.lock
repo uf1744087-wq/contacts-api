@@ -1,0 +1,126 @@
+version = 202
+requires-python = ">=3.8"
+
+[[package]]
+name = "annotated-types"
+version = "0.7.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ee/67/531ea369ba64dcff5ec9c3402f2082050d9f4c79e05f7394f7e78bf67439/annotated_types-0.7.0.tar.gz", hash = "md5:39e86e9a0a0f5b1ff55ec2248d63c6f0", size = 22117 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/78/b6/6bef144196e907e904db94647eb1a5fcd9270dcc4b030d90796ba118bc18/annotated_types-0.7.0-py3-none-any.whl", hash = "md5:f85fd79450a9b2b6236e01b8ea76cc39", size = 13641 },
+]
+
+[[package]]
+name = "anyio"
+version = "4.13.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "idna", version = ">=2.8", python-version = ">=3.8" },
+    { name = "sniffio", version = ">=1.1", python-version = ">=3.8" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/8d/63/6db1e56481dee0d1faa53a4fc17248e0fda2da80dd633b47ff72c03797b7/anyio-4.13.0.tar.gz", hash = "md5:4b2c77857cedc2ebfc8e9255a05e06f8", size = 69651 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e7/7e/fd76d919d4554a50e6050ba8a85ed9e7ae9f1f6f74e6b38eef7f7cea0d23/anyio-4.13.0-py3-none-any.whl", hash = "md5:4fcb0e46bdb6bf6c57ed35b16d8bbecf", size = 56555 },
+]
+
+[[package]]
+name = "fastapi"
+version = "0.136.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "starlette", version = ">=0.38.0", python-version = ">=3.8" },
+    { name = "typing-extensions", version = ">=4.11.0", python-version = ">=3.8" },
+    { name = "pydantic", version = ">=1.7.4", python-version = ">=3.8" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/0b/d9/f97055e72fd3f9e331f3e8ab9de54be12b09de28c5e156c7ed08b9e4ac91/fastapi-0.136.1.tar.gz", hash = "md5:b1aa1f60e2ee8ebccef64fd8a76e7f35", size = 273843 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e5/5c/f59b8dff7e3b9afd7d7bc4f1cd5ff19c7a5b8cfb5e1ec94c8fa0ce4f4c3/fastapi-0.136.1-py3-none-any.whl", hash = "md5:9d28ce7b7bb1e84f2f6f7a57f0f3fe8c", size = 92373 },
+]
+
+[[package]]
+name = "h11"
+version = "0.16.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f5/38/3af3d3633a34a3316095a869afb7ef3fa3cdb7e2c77849b6f0ee60514280/h11-0.16.0.tar.gz", hash = "md5:96508f71a1b02d50ded5f3f38d2b241a", size = 96070 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/95/04/ff642e65ad6b94f645fa7d492c09cf51d49b2ca618bd7d7ec44722a5c647/h11-0.16.0-py3-none-any.whl", hash = "md5:7ea1d6a7bb3b9fd0e998c78a0de4c97e", size = 61302 },
+]
+
+[[package]]
+name = "idna"
+version = "3.13"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/a0/08/3badbd4f57f5c4ae87d69da42e11e7fe276b83c58b2b82155a5f4b1a8dd0/idna-3.13.tar.gz", hash = "md5:dc55f13f23d24bf46ef5d6f97f75c0a5", size = 190515 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d5/e1/cd2db14f4e98f2476d0c5a10e05fc7e3c9e5eeb3fe6cc8bdc8eae6c3a6be/idna-3.13-py3-none-any.whl", hash = "md5:b3d1b72176be71e0848356fa3f3ecfca", size = 61572 },
+]
+
+[[package]]
+name = "pydantic"
+version = "2.13.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "annotated-types", version = ">=0.4.0", python-version = ">=3.8" },
+    { name = "pydantic-core", version = ">=2.46.0", python-version = ">=3.8" },
+    { name = "typing-extensions", version = ">=4.0.0", python-version = "<=3.10" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/4e/76/7d61ad76a32cf532f62e75efb7f7f97c4da1d6f8ba33c4e8f989fbe2e12d/pydantic-2.13.3.tar.gz", hash = "md5:daf3e1b23be36c8c93f59a6db369f62e", size = 365089 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5f/12/27ef75d969ddb6fd891fb1e4ccd8a20ebdaba2f62a6d47eb70b0f6fb3b5d/pydantic-2.13.3-py3-none-any.whl", hash = "md5:959289c4b5cd35faa85b08a8f34e2886", size = 426882 },
+]
+
+[[package]]
+name = "pydantic-core"
+version = "2.46.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "typing-extensions", version = "!=4.7.0,>=4.6.0", python-version = ">=3.8" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f9/c7/3f5f1c2b282e4f14c6ae08acdad5f28cdfe46f5f61f41fcfb6d8ebc48d1f/pydantic_core-2.46.3.tar.gz", hash = "md5:7d1e38bbf7c2263f0d0cd8e5d2df0d9e", size = 418343 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/47/75/f820ca5f62c0ebe7bf5a93b7daea91da4a54d27fceaf69a21b6f2c4a53bc/pydantic_core-2.46.3-cp313-cp313-win_amd64.whl", hash = "md5:2e8fe2a61a3c0c9df88f1e28c7ea9e13", size = 2203626 },
+]
+
+[[package]]
+name = "sniffio"
+version = "1.4.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/cd/2b/e5bafbb4cecb2a59ac13c66cfe3b37d5f7bb5e58203cd16d9bdffa29216b/sniffio-1.4.1.tar.gz", hash = "md5:a32245778675b1af9eed80e7ecd4e5f6", size = 15755 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e9/44/75723033769bb4b674ff216b03d30180dccc7ed150ebd582e8b13e94a85f/sniffio-1.4.1-py3-none-any.whl", hash = "md5:f66099de4e4968aee1da02501564abc9", size = 15877 },
+]
+
+[[package]]
+name = "starlette"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "anyio", version = "<5", python-version = ">=3.8" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/89/ad/f1e59dd97e9c72152e1a0869a1ee19cf1f7e450ad9b374ffd974f37f6b4c/starlette-1.0.0.tar.gz", hash = "md5:ee8e7240b4dcf63e85a1e314e667d0d7", size = 148435 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/02/a9/ef08c24cd90f6f55b5e79f9f36dc1e2d10aabc5d5c4d2fefd1ee5ecaa16d/starlette-1.0.0-py3-none-any.whl", hash = "md5:e4a652f1b59e0f78e3c2aa5e81c2f4f8", size = 72481 },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.15.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/95/d5/f53ec8206f0c4d0cf9d976df6b2e7b7b07b7ba6b81ad64240fa52c8e1e6c/typing_extensions-4.15.0.tar.gz", hash = "md5:5872be4bd76eee71d98e41b92d66f48d", size = 99321 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/fb/e4/828175028f320df4d8a36c04cf38512bda7f18b79123bb867f2838ebc0fe/typing_extensions-4.15.0-py3-none-any.whl", hash = "md5:6573c2ab14dfcc5e434503e35851dcc8", size = 37930 },
+]
+
+[[package]]
+name = "uvicorn"
+version = "0.46.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "click", version = ">=7.0", python-version = ">=3.8" },
+    { name = "h11", version = ">=0.8", python-version = ">=3.8" },
+    { name = "typing-extensions", version = ">=4.0", python-version = "<3.11" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/56/fd/65917f7ded3e35f3c1b99a6f5c52fadddb2d0e81be7dcdd905defc86b24f/uvicorn-0.46.0.tar.gz", hash = "md5:2cf5e33e55cd2c3a565e93a17a21502e", size = 50893 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/90/48/a51a48f0c56fdd38f9835ae6d4c3d8c6e30a00c87d97c4d7f40a28d4a89/uvicorn-0.46.0-py3-none-any.whl", hash = "md5:c3028d44c53a55f37ad3d45326fa4c37", size = 62987 },
+]
