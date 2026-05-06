@@ -34,6 +34,4 @@ dist/
 *.sqlite3
 
 # Local editor settings
-.vscode/*
-!.vscode/settings.json
-!.vscode/activate-venv.ps1
+.vscode/

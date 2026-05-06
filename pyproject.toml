@@ -9,6 +9,7 @@ dependencies = [
     "pydantic>=2.13.3",
     "supabase>=2.0.0",
     "python-dotenv>=1.0.0",
+    "sqlmodel>=0.0.38",
 ]
 
 [build-system]
